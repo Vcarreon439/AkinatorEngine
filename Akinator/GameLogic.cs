@@ -39,6 +39,7 @@ namespace AkinatorEngine
         public GameLogic()
         {
             Questions = new DbQuestionsEditor(Db);
+            Answers = new DbAnswerEditor(Db);
 
             UpdateQandA();
         }
